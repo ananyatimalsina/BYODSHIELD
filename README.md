@@ -105,6 +105,7 @@ pip install -r requirements.txt
 ## Notes
 
 - This is a **proof of concept** and is not intended for production use without further testing and security hardening.
+- Refer to the [wiki](https://github.com/ananyatimalsina/BYODSHIELD/wiki) for further reading.
 - Ensure that the `mongodb` and `unifi/data` directories are properly set up with `.gitkeep` files to maintain the directory structure.
 
 ---
