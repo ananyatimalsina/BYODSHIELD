@@ -39,6 +39,9 @@ def handle_unifi_disconnect(user):
     # Here you can implement the logic to handle the disconnection event
     print(f"User {user} has disconnected from the Unifi network.")
 
+    # Example: Remove the user from the network
+    unifi.delete_radius_user(user)
+
 async def _listen():
     # Connect to the events WebSocket
     uri = f"wss://{getenv("UNIFI_HOST")}:8443/wss/s/{getenv("UNIFI_SITE")}/events"
@@ -66,6 +69,8 @@ def validate_connection(user):
     else:
         print(f"[ALERT] {user} is NOT connected")
         # e.g., increment strike count or take action
+        # Example: Remove the user from the network
+        unifi.delete_radius_user(user)
 
 def schedule_validation(user, delay_minutes=10):
     job_id = f"validate_{user}"
