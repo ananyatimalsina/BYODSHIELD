@@ -13,20 +13,20 @@ import websockets
 
 # WebUntis setup, uncomment if needed
 # untis = webuntis.Session(
-#     username=getenv('UNTIS_USER'),
-#     password=getenv('UNTIS_PASS'),
+#     username=getenv('UNTIS_USERNAME'),
+#     password=getenv('UNTIS_PASSWORD'),
 #     server=getenv('UNTIS_HOST'),
-#     school='demo_inf',
+#     school=getenv('UNTIS_SCHOOL'),
 #     useragent='BYODSHIELD'
 # ).login()
 
 unifi = Controller(
     host=getenv('UNIFI_HOST'),
-    username=getenv('UNIFI_USER'),
-    password=getenv('UNFI_PASS'),
-    site_id='default',
-    ssl_verify=False,
-    port=8443)
+    username=getenv('UNIFI_USERNAME'),
+    password=getenv('UNIFI_PASSWORD'),
+    site_id=getenv('UNIFI_SITE'),
+    ssl_verify=getenv('UNIFI_SSL_VERIFY').lower() == 'true',
+    port=int(getenv('UNIFI_PORT')),)
 
 sched = BackgroundScheduler()
 sched.start()
