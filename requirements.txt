@@ -1,0 +1,7 @@
+pyunifi
+dotenv
+webuntis
+requests
+websockets
+flask
+apscheduler

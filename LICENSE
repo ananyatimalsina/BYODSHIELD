@@ -1,0 +1,57 @@
+Development & Testing License (DTL) v1.0
+
+Copyright (c) 2025 Ananya Timalsina
+
+This Development & Testing License (“DTL”) governs your use of the licensed software (“Software”). By using the Software under this DTL, you agree to the terms below.
+
+1. License Grant
+
+1.1 Development & Testing Use. Subject to your compliance with this DTL, you are granted a non-exclusive, non-transferable, worldwide, royalty-free license to use, modify, and distribute the Software solely for development, testing and evaluation purposes.
+
+1.2 Permitted Activities. Under this DTL you may:
+
+    Integrate the Software into your local development or testing environments.
+
+    Build, compile, and debug the Software.
+
+    Share the Software (and your modifications) with collaborators provided they agree to this DTL.
+
+2. Restrictions
+
+2.1 No Production Use. You may not use, deploy, or operate the Software—modified or unmodified—in any production, commercial, service-offering, or revenue-generating environment without obtaining a separate written license from the copyright holder.
+
+2.2 No Commercial Distribution. You may not sublicense, sell, lease, rent, or otherwise distribute the Software (or derivative works) to any third party for any commercial or for-profit purpose.
+
+2.3 Hotline for Permission. To obtain a commercial or production license, contact:
+Ananya Timalsina
+developer@ananyatimalsina.com.np
+
+3. Open-Source Compatibility
+
+3.1 Source-Available. The Software is source-available, not open-source. Except as expressly permitted herein, no other rights are granted.
+
+3.2 No Re-licensing. You may not re-license the Software under any license that permits production or commercial use.
+
+4. Contributions
+
+4.1 Developer Contributions. Any contributions you make (“Contributions”) are deemed licensed under this DTL. You retain copyright in your Contributions but grant the holder of the Software the right to use them under the same Development & Testing License.
+
+5. Ownership & Warranty Disclaimer
+
+5.1 Ownership. All title and intellectual property rights in the Software remain with the original copyright holder.
+
+5.2 AS IS. The Software is provided “AS IS,” without warranty of any kind. The copyright holder disclaims all warranties, whether express, implied, statutory, or otherwise, including but not limited to warranties of merchantability, fitness for a particular purpose, non-infringement, and accuracy.
+
+6. Limitation of Liability
+
+In no event will the copyright holder be liable for any indirect, incidental, special, consequential, or punitive damages arising out of your use of the Software, even if advised of the possibility of such damages.
+
+7. Termination
+
+This DTL and your rights under it will automatically terminate if you fail to comply with any term herein. Upon termination, you must cease all use of the Software and destroy all copies.
+
+8. Governing Law
+
+This DTL is governed by the laws of the Federal Republic of Germany, without regard to conflict-of-law principles.
+
+END OF LICENSE
